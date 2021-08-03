@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Hot Air Balloon</title>
 
     <style type="text/css">
       .bg-trans {
@@ -15,201 +16,211 @@
       }
 
       .jumbotron {
-        background-image: url('final-project/images/landscape.jpg');
+        background-image: url('images/landscape.jpg');
         background-size: cover;
         color: white;
-        height: 600px;
-        padding-top: 200px;
+        height: 1000px;
+        width: 100%;
+        padding-top: 20%;
       }
 
-    </style>
+      #table1 > tr > td {
+        padding: 30px;
+      }
 
-    <title>Hello, world!</title>
+      .site-footer
+      {
+        background-color:#26272b;
+        padding:45px 0 20px;
+        font-size:15px;
+        line-height:24px;
+        color:#737373;
+      }
+      .site-footer h6
+      {
+        color:#fff;
+        font-size:16px;
+        margin-top:5px;
+      }
+      .footer-links
+      {
+        padding-left:0;
+        list-style:none
+      }
+      .footer-links li
+      {
+        display:block
+      }
+      .footer-links.inline li
+      {
+        display:inline-block
+      }
+
+
+    </style>
   </head>
   <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Company Name</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
+    <div class="rounded-lg text-center jumbotron">
+      <h1>Company Name</h1>
+      <p class="lead fw-bold">Tagline Message</p>
+      <p class="pb-3">__________________________</p>
+      <button class="btn btn-primary btn-lg me-2">Sign In</button>
+      <button class="btn btn-light btn-lg">Sign up</button>
+    </div>
+
+    <div class="container">
       
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
+      <div class="row my-5">
+        <div class="col-5">
+          <img src="images/mock_ipad.jpg" class="img-fluid">
+        </div><!--col-5-->
+        <div class="col-7">
+          <h2>Lorem ipsum dolow sit amet iPAD </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div><!--col-7-->
+      </div><!--row-->
 
-                <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+      <hr>
 
-      </ul>
-    </div>
-  </div>
-</nav>
+      <div class="row my-5"> 
+        <div class="col-7">
+          <h2>Lorem ipsum dolow sit amet NEXUS</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div><!--col-7-->
+        <div class="col-5">
+          <img src="images/mock_nexus.jpg" class="img-fluid">
+        </div> <!--col-5-->
+      </div> <!--row-->
 
-<div class="rounded-lg text-center jumbotron">
-  <h1>Company Name</h1>
-  <p class="lead">Tagline Message</p>
-  <hr class="my-4">
-  
-  <a class="btn btn-primary btn-lg" href="#" role="button">Sign In</a>
-  <a class="btn btn-light btn-lg" href="#" role="button">Sign up</a>
-</div>
-
-<section id="about" class="my-5">
-  <div class="container"> 
-  <div class="row">
-    <div class="col-5">
-      <img src="final-project/images/mock_ipad.jpg" class="img-fluid">
-      </div>
-    <div class="col-7">
-      <h2>Lorem ipsum dolow sit amet iPAD </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-  </div>
-  </div>
-</section>
-<hr>
-<section id="about" class="my-5">
-  <div class="container"> 
-  <div class="row">
-    
-    <div class="col-7">
-      <h2>Lorem ipsum dolow sit amet NEXUS</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="col-5">
-      <img src="final-project/images/mock_nexus.jpg" class="img-fluid">
-      </div>
-  </div>
-  </div>
-  <hr>
-  <tbody>
-
-    <h2 align="text-center table-hover bg-secondary">Features</h2>
-    <div>
-    <table class="table bg-light">
-      <tr>
-        <td class="text-center">Feature 1</td>
-        <td class="text-center">Feature 2</td>
-        <td class="text-center">Feature 3</td>
-      </tr>
-        <tr>
-        <td class="text-center">Feature 4</td>
-        <td class="text-center">Feature 5</td>
-        <td class="text-center">Feature 6</td>
-      </tr>
-    </table>
-  </div>
-      <h2 align="text-center">Price Table</h2>
-      <div>
-      <table class="table table-bordered table-striped table-hover">
-      <thead>
-      <tr>
-        <th class="bg-primary text-light text-center">Free Plan</th>
-        <th class="bg-danger text-light text-center">Standard Plan</th>
-        <th class="bg-warning text-light text-center">Premium Plan</th>
-      </tr>
-    <div class="card p-3 my-3 bg-light">
-      <tr>
-        <td class="bg-primary text-light text-center">$ 0</td>
-        <td class="bg-danger text-light text-center">$ 99</td>
-        <td class="bg-warning text-light text-center">$ 999</td>
-      </tr>
-    </div>
-        <tr>
-        <td>Lorum Ipsum 1.1</td>
-        <td>Lorum Ipsum 2.1</td>
-        <td>Lorum Ipsum 3.1</td>
-      </tr>
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-bordered text-center table-secondary">
+            <thead>
               <tr>
-        <td>Lorum Ipsum 1.2</td>
-        <td>Lorum Ipsum 2.2</td>
-        <td>Lorum Ipsum 3.2</td>
-      </tr>
-        <tr>
-        <td>Dolor sit amet</td>
-        <td>Lorum Ipsum 2.3</td>
-        <td>Lorum Ipsum 3.3</td>
-      </tr>
-        <tr>
-        <td> - </td>
-        <td>Dolor sit amet</td>
-        <td>Lorum Ipsum 3.4</td>
-      </tr>
-        <tr>
-        <td> - </td>
-        <td> - </td>
-        <td>Lorum Ipsum 3.6</td>
-      </tr>
-        <tr>
-        <td class="bg-primary text-light text-center" href="#" role="button">Purchase</td>
-        <td class="bg-danger text-light text-center" href="#" role="button">Purchase</td>
-        <td class="bg-warning text-light text-center" href="#" role="button">Purchase</td>
-      </tr>
-      </thead>
-    </div>
-    </tbody>
-  </table>
+                <th scope="col" colspan="3">
+                  <h3 class="fw-bold">Features</h3>
+                  <p>Features headline message</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="table1">
+              <tr>
+                <td>Feature</td>
+                <td>Feature</td>
+                <td>Feature</td>
+              </tr>
+              <tr>
+                <td>Feature</td>
+                <td>Feature</td>
+                <td>Feature</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-<div class="container">
-  <div class="d-flex c-container">
-    <div class="img-wrapper">
-      <div class="col-9">
-      <img src="final-project/images/jon.png" class="img-fluid rounded" alt="card-rounded">
-      <h5 class="card-title text-center text-primary">Jonny Doo</h5>
-      <p class="card-text text-center">CEO</p>
-    </div>
-  </div>
-    <div class="img-wrapper">
-      <div class="col-9">
-      <img src="final-project/images/jon.png" class="img-fluid rounded-circle" alt="card-rounded-circle">
-      <h5 class="card-title text-center text-primary">Jon Doe</h5>
-      <p class="card-text text-center">CTO</p>
-    </div>
-  </div>
-    <div class="img-wrapper">
-      <div class="col-9">
-      <img src="final-project/images/jon.png" class="img-thumbnail rounded" alt="card-img-thumbnail">
-      <h5 class="card-title text-center text-primary">Johnny Draco</h5>
-      <p class="card-text text-center">CIO</p>
-    </div>
-  </div>
-  </div>
-</div>
-<hr>
-<div class="rounded-lg text-center">
-  <p></p>
-  <p class="lead">Stay connected with us. Join the newsletter to receive fresh info</p>
-  <hr class="my-4">
-  <p></p>
-  </div>
-</div>
-</div>
-</div>
-</div>
+        <div class="col-10 offset-1">
+          <h3 class="my-5 text-center">Price Table</h3>
+          <table class="table table-striped">
+            <thead>
+              <tr class="text-center text-white">
+                <th class="bg-success py-3">Free plan</th>
+                <th class="bg-info py-3">Standard plan</th>
+                <th class="bg-danger py-3">Premium plan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-center text-white">
+                <td class="bg-success py-4"><h3>$ 0</h3></td>
+                <td class="bg-info py-4"><h3>$ 99</h3></td>
+                <td class="bg-danger py-4"><h3>$ 999</h3></td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>Dolor sit amet</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>Dolor sit amet</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-success w-100">Purchase</button></td>
+                <td><button class="btn btn-info w-100 text-white">Purchase</button></td>
+                <td><button class="btn btn-danger w-100">Purchase</button></td>
+              </tr>
+              // Do I need to activate the link to purchase or leave it as an inactive button?
 
-</section>
 
+            </tbody>
+          </table>
+        </div><!--col-10-->
+      </div><!--row-->
+      <div class="row my-5">
+        <div class="col-12">
+          <table class="text-center" style="width: 70%; margin-left: 15%;">
+            <tbody>
+              <tr>
+                <td><img src="images/jon.png" class="rounded"><br><span style="color: darkcyan; font-weight: bold;">Jonny Doo</span><br><span style="color:grey;">CEO</span></td>
+                <td><img src="images/jon.png" class="rounded-circle"><br><span style="color: darkcyan; font-weight: bold;">Jonny Doo</span><br><span style="color:grey;">CTO</span></td>
+                <td><img src="images/jon.png" class="img-thumbnail"><br><span style="color: darkcyan; font-weight: bold;">Jonny Doo</span><br><span style="color:grey;">CIO</span></td>
+              </tr>
+            </tbody>
+         </table>
+        </div>
+      </div>
+      
+      
 
   </body>
 </html>
